@@ -1,8 +1,8 @@
 {
   "domain": "tuya",
   "name": "Tuya",
-  "version": "1.0.0",
-  "codeowners": ["@Tuya", "@zlinoliver", "@frenck"],
+  "version": "1.0.1",
+  "codeowners": ["@afirel"],
   "config_flow": true,
   "dependencies": ["ffmpeg"],
   "dhcp": [
@@ -43,6 +43,5 @@
   "documentation": "https://www.home-assistant.io/integrations/tuya",
   "integration_type": "hub",
   "iot_class": "cloud_push",
-  "loggers": ["tuya_iot"],
   "requirements": ["tuya-iot-py-sdk==0.6.6"]
 }
